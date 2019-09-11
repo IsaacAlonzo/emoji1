@@ -54,6 +54,38 @@ sven.right(90)
 sven.forward(75)
 sven.end_fill()
 
+phil.penup()
+phil.goto(-25, 200)
+phil.right(45)
+phil.pendown()
+phil.begin_fill()
+phil.forward(50)
+phil.right(90)
+phil.forward(25)
+phil.right(90)
+phil.forward(50)
+phil.right(90)
+phil.forward(25)
+phil.end_fill()
+
+def eyebrow():
+    john.forward(50)
+    john.left(90)
+    john.forward(25)
+    john.left(90)
+    john.forward(50)
+    john.left(90)
+    john.forward(25)
+
+
+john.penup()
+john.goto(25, 200)
+john.left(45)
+john.pendown()
+john.begin_fill()
+eyebrow()
+john.end_fill()
+
 
 
 
