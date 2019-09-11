@@ -15,6 +15,7 @@ sven.shape("arrow")
 
 john.penup()
 phil.penup()
+sven.penup()
 
 bob.color("yellow")
 bob.begin_fill()
@@ -31,15 +32,28 @@ phil.begin_fill()
 phil.circle(25)
 phil.end_fill()
 
-
-john.left(270)
-john.forward(200)
-john.left(270)
-john.forward(50)
+john.goto(50, 150)
 john.pendown()
 john.begin_fill()
 john.circle(25)
 john.end_fill()
+
+sven.left(90)
+sven.forward(75)
+sven.left(90)
+sven.pendown()
+sven.begin_fill()
+sven.forward(75)
+sven.right(90)
+sven.forward(25)
+sven.right(90)
+sven.forward(150)
+sven.right(90)
+sven.forward(25)
+sven.right(90)
+sven.forward(75)
+sven.end_fill()
+
 
 
 
