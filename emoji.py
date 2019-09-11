@@ -8,7 +8,7 @@ sven = turtle.Turtle()
 
 
 bob.shape("turtle")
-phil.shape("classic")
+phil.shape("arrow")
 john.shape("arrow")
 sven.shape("arrow")
 
